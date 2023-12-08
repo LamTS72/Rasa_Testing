@@ -1,0 +1,97 @@
+version: "3.1"
+
+nlu:
+- intent: greeting
+  examples: |
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - bye
+    - see you later
+
+- intent: confirm
+  examples: |
+    - yes
+    - ok
+
+- intent: deny
+  examples: |
+    - no
+    - no way
+    - not really
+
+- intent: complaint
+  examples: |
+    - The [bedroom](location) is so dark
+    - The [living room](location) is dark
+    - The [living room](location) is not lighting
+    - The [bedroom](location) is so hot
+    - I'm feel hot in [bedroom](location)
+
+- intent: ask_weather
+  examples: |
+    - What is the weather like in [Ho Chi Minh](location)
+    - Now what is the weather like in [Ha Noi](location)
+    - what weather like in [Ha Noi](location)
+    - tell me what the weather like in [Ho Chi Minh](location)
+
+- intent: ask_time
+  examples: |
+    - what time is it right now in [Viet Nam](location)
+    - In [Viet Nam](location) what time is it
+    - what is the time in [Korea](location)
+    - tell me what is the im in [England](location)
+
+- intent: control_device
+  examples: |
+    - [turn on](action) the [light](device) in [bedroom](location)
+    - [turn off](action) the [bedroom](location) [light](device)
+    - [turn on](action) the [living room](location) [light](device)
+    - [turn on](action) the [bedroom](location) [fan](device)
+    - [turn off](action) the [fan](device) in [living room](location)
+    - [turn on](action) the [door](device) in [garage](location) 
+    - [turn off](action) the [door](device) in [garage](location)
+
+
+- lookup: location
+  examples: |
+    - Viet Nam
+    - Ha Noi
+    - Ho Chi Minh
+    - Korea
+    - England
+    - Thailand
+    - Germany
+    - bedroom
+    - living room
+    - garage
+
+- lookup: action
+  examples: |
+    - turn on
+    - turn off
+
+
+- lookup: device
+  examples: |
+    - light
+    - door
+    - fan
+   
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-action",
+      "2": "I-action",
+      "3": "L-action",
+      "4": "U-action",
+      "5": "B-device",
+      "6": "I-device",
+      "7": "L-device",
+      "8": "U-device",
+      "9": "B-location",
+      "10": "I-location",
+      "11": "L-location",
+      "12": "U-location",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-action": 1,
+      "I-action": 2,
+      "L-action": 3,
+      "U-action": 4,
+      "B-device": 5,
+      "I-device": 6,
+      "L-device": 7,
+      "U-device": 8,
+      "B-location": 9,
+      "I-location": 10,
+      "L-location": 11,
+      "U-location": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

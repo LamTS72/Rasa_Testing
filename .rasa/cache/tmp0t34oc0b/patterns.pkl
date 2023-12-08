@@ -1,0 +1,14 @@
+[
+  {
+    "name": "location",
+    "pattern": "(\\bViet\\ Nam\\b|\\bHa\\ Noi\\b|\\bHo\\ Chi\\ Minh\\b|\\bKorea\\b|\\bEngland\\b|\\bThailand\\b|\\bGermany\\b|\\bbedroom\\b|\\bliving\\ room\\b|\\bgarage\\b)"
+  },
+  {
+    "name": "action",
+    "pattern": "(\\bturn\\ on\\b|\\bturn\\ off\\b)"
+  },
+  {
+    "name": "device",
+    "pattern": "(\\blight\\b|\\bdoor\\b|\\bfan\\b)"
+  }
+]
